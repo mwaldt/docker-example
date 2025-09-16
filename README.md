@@ -34,12 +34,12 @@ Limit and monitor resources that each contrainer can use (cpu, memory, disk I/O)
 ## Operating System/Contrainer Virtualization
 
 ```mermaid
- flowchart TD
-     A[Hardware] <--> B(Kernal of the Host)
-     subgraph
-     B --> C[Container One]
-     B --> D[Container Two]
-     B --> E[Container Three]
-     end
+ flowchart TD;
+     A[Hardware] <--> B(Kernal of the Host);
+     subgraph;
+     B --> C[Container One];
+     B --> D[Container Two];
+     B --> E[Container Three];
+     end;
 ```
 
